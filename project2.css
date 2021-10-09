@@ -1,0 +1,46 @@
+.border_box{
+    opacity:5;
+    position: fixed;
+    left: 35%;
+    bottom: 30%;
+    width: 10cm;
+    height: 10cm;
+    background-color:aliceblue;
+    border: 0.1cm;
+    border-style: inherit;
+    align-items: center;
+    text-align: center;
+    border-radius: 2%;
+
+}
+
+.box{
+    border-style: inherit;
+    align-items: center;
+    opacity: 10;
+    box-sizing: border-box;
+    position: relative;
+    width: 75%;
+    left: 12%
+}
+.button{
+    width: 30%;
+    background-color: bisque;
+}
+.button:hover{
+    background-color: coral;
+}
+input[type=text]{
+    border-style:  ridge;
+    border-radius: 5%;
+    padding: 1%;
+    background-color: aliceblue;
+    border-color: lime;
+}
+input[type=password]{
+    border-style:  ridge;
+    border-radius: 5%;
+    padding: 1%;
+    background-color: aliceblue;
+    border-color: lime;
+}
